@@ -54,7 +54,7 @@ export default function Login() {
             size="small"
             fullWidth
             value={username}
-            onChange={(e) => setUsername(e.target.vaule)}
+            onChange={(e) => setUsername(e.target.value)}
             id="outlined-basic" 
             label="Username" 
             variant="outlined" 
@@ -66,7 +66,7 @@ export default function Login() {
             fullWidth
             value={password}
             type="password"
-            onChange={(e) => setPasswrod(e.target.vaule)}
+            onChange={(e) => setPasswrod(e.target.value)}
             id="outlined-basic" 
             label="Password" 
             variant="outlined" 
