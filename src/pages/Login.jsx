@@ -44,7 +44,7 @@ export default function Login() {
   }
 
   return (
-    <Grid container justifyContent="center" spacing={2}>
+    <Grid container justifyContent="center">
       <Card variant="outlined" justifyContent="center" className={style.container}>
       <Typography variant="h4" component="h2">
         Log In
