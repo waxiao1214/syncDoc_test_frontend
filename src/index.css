@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+#contaienr {
+  width: 100%;
+  justify-content: center;
+}
+
+#container .ql-editor {
+  width: 8.5in;
+  min-height: 11in;
+  padding: 1in;
+  margin: 1rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+#container.ql-container.ql-snow {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.ql-toolbar.ql-snow {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  height: 50px;
+  z-index: 1;
+  background-color: #f3f3f3;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
